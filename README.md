@@ -74,7 +74,7 @@
     ```
     Observe that you now have very recent data from January 2024.
 
-    To get access to this data, you will need to brind down your docker containers, and rebuild the images.
+    To get access to this data, you will need to bring down your docker containers, and rebuild the images.
     You can verify that you have access to the new data by recounting the number of stores and staff members.
     ```
     postgres=# select count(*) from store;
