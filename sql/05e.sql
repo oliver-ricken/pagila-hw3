@@ -28,6 +28,6 @@ FROM (
     JOIN film f2 ON (fc2.film_id = f2.film_id)
     WHERE f1.title = 'AMERICAN CIRCUS'
     GROUP BY f2.title
-) AS actor_count
+) AS category_count
 WHERE count > 1
 ORDER BY title;
